@@ -1,2 +1,3 @@
-# mlops22
-# mlops22
+# Platform information
+OS: Ubuntu 20.04
+Python: 3.10.4

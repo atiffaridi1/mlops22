@@ -167,7 +167,7 @@ if __name__ == '__main__':
     'svc': {'model': SVC, 'params': {'kernel': ['rbf', 'poly', 'linear'], 'gamma': [0.01, 0.005, 0.001], 'C': [0.1, 0.2, 0.5, 1]}},
     'decision_tree': {'model': DecisionTreeClassifier, 'params': {'criterion': ['gini', 'entropy'], 'max_features': ['auto', 'sqrt']}}
     }
-    no_of_splits = 2
+    no_of_splits = 5
     train_frac, dev_frac, test_frac = 0.8, 0.1 , 0.1
     metric=metrics.accuracy_score
 

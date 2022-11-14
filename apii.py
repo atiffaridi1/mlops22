@@ -27,4 +27,7 @@ def predict():
     print("done loading")
     predicted1 = model.predict([image1])
     predicted2 = model.predict([image2])
-    return {"y_predicted":int(predicted[0])}
+    if predicted1==predicted2:
+        return {"matched":True}
+    else:
+        return {"matched":False}
